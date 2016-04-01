@@ -153,6 +153,7 @@ body {
 #audio .iconfont {
 	display: inline-block;
 	font-size: 26px;
+	line-height: 26px;
 }
 .rotate {
 	-moz-animation: rotate 1.5s linear infinite;

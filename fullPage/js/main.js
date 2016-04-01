@@ -42,7 +42,7 @@
 	runPage = new FullPage({
 
 	    id : 'pageContain',                            // id of contain
-	    slideTime : 1000,                               // time of slide
+	    slideTime : 600,                               // time of slide
 	    continuous : false,                             // create an infinite feel with no endpoints
 	    effect : {                                     // slide effect
 	        transform : {
