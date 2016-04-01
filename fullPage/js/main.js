@@ -1,10 +1,29 @@
 ;(function($){
 	"use strict";
 
+	var $document = $(document);
+
 	//禁止窗口的默认滑动
 	document.ontouchmove = function(e){
 	    e.preventDefault();
 	};
+
+	//Loader
+	$(window).load(function() {
+        $("#loader .loader-inner").fadeOut('slow',function(){
+        	$("#loader").fadeOut('slow');
+        });
+    });
+
+    $document.on('tap',"#audio",function(){
+		var audio = $(this).find("audio")[0];
+		$(this).toggleClass("rotate");
+		if(!$(this).is(".rotate")){
+			audio.pause();
+		} else {
+			audio.play();	
+		};
+	});
 
 	//框架
 	var runPage,
