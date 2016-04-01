@@ -32,7 +32,7 @@
 	background-color: #c2f5e1;
 }
 
-/* 指示 */
+/* Point */
 #point {
 	position: absolute;
 	bottom: 10px;
@@ -45,6 +45,13 @@
 	-moz-animation: point 1.5s infinite ease-in-out;
 	animation: point 1.5s infinite ease-in-out;
 	text-align: center;
+}
+#point .iconfont {
+	font-size: 30px;
+	color: rgba(255,255,255,0.6);
+	-moz-text-shadow: #666 0 1px 1px;
+	-webkit-text-shadow: #666 0 1px 1px;
+	text-shadow: #666 0 1px 1px;
 }
 @-webkit-keyframes point {
 	0%, 30% {
@@ -87,13 +94,6 @@
 		opacity: 0;
 		transform: translate(0, -8px)
 	}
-}
-#point .iconfont {
-	font-size: 30px;
-	color: rgba(255,255,255,0.6);
-	-moz-text-shadow: #666 0 1px 1px;
-	-webkit-text-shadow: #666 0 1px 1px;
-	text-shadow: #666 0 1px 1px;
 }
 
 /*框架*/
@@ -140,18 +140,18 @@ body {
 	-webkit-transition-duration: 0ms !important;
 	transition-duration: 0ms !important;
 }
-/* audio */
+/* Audio */
 #audio {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	z-index: 999;
-	padding: 2px;
 	-moz-animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
 #audio .iconfont {
+	display: inline-block;
 	font-size: 26px;
 }
 .rotate {
@@ -238,7 +238,6 @@ body {
 
 
 .delay {
-
 	/*  animation-duration: 1s;*/
 	-moz-animation-delay: 0.5s;
 	-webkit-animation-delay: 0.5s;
