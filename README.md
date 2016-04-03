@@ -1,4 +1,4 @@
-# H5 资源整理
+# H5资源整理
 
 ## 框架
 * [fullPage.js](https://github.com/powy1993/fullpage.git) 兼容桌面端(ie5.5+) 和 手机端
@@ -11,11 +11,11 @@
 
 * [zepto.fullpage.js](https://github.com/yanhaijing/zepto.fullpage.git) 可实现移动端的单页滚动效果，可自定义参数，提供回调接口，和公开接口。
 
-## Reset
+## CSS重置
 * [sanitize.css](https://github.com/10up/sanitize.css.git)
 
 ## 动画库
-* [animate.css]
+* [animate.css](https://github.com/daneden/animate.css.git)
 
 ## 加载动画
 * [loaders.css](https://github.com/ConnorAtherton/loaders.css.git) 纯CSS加载动画
