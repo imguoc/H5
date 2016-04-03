@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>test-3</title>
+<style>
+* {
+	padding: 0;
+	margin: 0;
+}
+</style>
+    
+</head>
+<body>
+<div id="wrap" class="wrap">
+    <div class="item itme-1" style="background-color: yellow;">
+        第一屏
+    </div>
+    <div class="item itme-2" style="background-color: turquoise;">
+        第二屏
+    </div>
+    <div class="item itme-3" style="background-color: skyblue;">
+        第三屏
+    </div>
+    <div class="item itme-4" style="background-color: cornflowerblue;">
+        第四屏
+    </div>
+</div>
+
+<script src="../js/iSlider.js"></script>
+<script>
+    
+var myslider=new iSlider({
+    wrap:'#wrap',
+    item:'.item',
+    onslide:function (index) {
+        if (index == 7) {
+            document.getElementById('J_joinNum').innerHTML=parseInt(Math.random()*10000);
+        }
+    }
+});
+
+    
+</script>
+</body>
+</html>

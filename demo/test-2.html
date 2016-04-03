@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>test-2</title>
+<style>
+*{padding: 0;margin: 0;}
+/*框架*/
+.swipe-wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.swipe{
+    position:absolute;
+    width:100%;
+}
+.swipe-box{
+    width: 100%;
+    overflow: hidden;
+}
+</style> 
+   
+</head>
+<body>
+<div class="swipe-wrap" id="slip">
+    <div class="swipe">
+        <div class="swipe-box" id="page1" style="background-color: aquamarine;">
+            第一屏
+        </div>
+        <div class="swipe-box" id="page2" style="background-color: aqua;">
+            第二屏
+        </div>
+        <div class="swipe-box" style="background-color: bisque;">
+            第三屏
+        </div>
+        <div class="swipe-box" style="background-color: blueviolet;">
+            第四屏
+        </div>
+    </div>
+</div>
+
+<script src="../js/slip.js"></script>
+<script>
+var container = document.getElementById('slip');
+var pages = document.querySelectorAll('.swipe-box');
+var slip = Slip(container, 'y').webapp(pages);    
+</script>
+
+</body>
+</html>
