@@ -103,7 +103,7 @@
 		
 * 发邮件
 
-		<a href="mailto:378588579@qq.com">电子邮箱：xxx@qq.com</a>
+		<a href="mailto:xxx@qq.com">电子邮箱：xxx@qq.com</a>
 		
 * 关注微信
 	
