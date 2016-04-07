@@ -21,6 +21,7 @@
 * [magic.css](https://github.com/miniMAC/magic.git)
 * [Effeckt.css](https://github.com/h5bp/Effeckt.css.git) 挺齐全的
 * [动画工具](http://isux.tencent.com/css3/index.html) 腾讯ISUX 在线css3动画工具
+* [parallax.js](https://github.com/wagerfield/parallax.git) 自适应智能设备方向的视差效果插件
 
 ## 加载动画
 * [loaders.css](https://github.com/ConnorAtherton/loaders.css.git) 纯CSS加载动画
@@ -33,8 +34,12 @@
 
 ## 其他工具
 * [prefixfree.js](https://github.com/LeaVerou/prefixfree.git) CSS3前缀补齐
-[附带前辈介绍](http://www.zhangxinxu.com/wordpress/?p=2035) 
+[附带介绍](http://www.zhangxinxu.com/wordpress/?p=2035) 
 * [jquery.css3finalize.js](https://github.com/codler/jQuery-Css3-Finalize.git) CSS3前缀补齐
+
+* [响应式网页测试工具](git@github.com:mattkersley/Responsive-Design-Testing.git) 能够帮助你测试在网页设计和构建过程中的界面效果
+
+* [阿里巴巴矢量图标库](http://www.iconfont.cn/)
 
 ## study
 * [移动web资源整理](http://www.cnblogs.com/PeunZhang/category/455417.html) 白色橡树
