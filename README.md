@@ -50,7 +50,7 @@
 
 * 页面窗口自动调整到设备宽度，并禁止用户缩放页面
 
-		<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	
 * 当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari（ios7.0版本以后，safari上已看不到效果）
 
